@@ -1,9 +1,11 @@
+import Container from "./Container";
+import GladiatorProvider from "./GladiatorContext";
 
 function App() {
     return (
-        <div>
-            <p>text</p>
-        </div>
+        <GladiatorProvider>
+            <Container />
+        </GladiatorProvider>
     );
 }
 
